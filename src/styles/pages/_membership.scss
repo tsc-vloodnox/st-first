@@ -1,0 +1,151 @@
+.membership {
+  main {
+    padding: 1%;
+    .ctn {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .article-title {
+      color: $color-2;
+      text-align: center !important;
+      font-size: 25px;
+      font-family: "Raleway", Helvetica, Arial, sans-serif;
+      margin-bottom: 10px;
+      margin-top: 0;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    .member-card-liste {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+    }
+    .member-card-itm {
+      padding: 0;
+      margin: 1%;
+    }
+    @media (min-width: 576px) {
+      .member-card-itm {
+        flex: 0 0 auto;
+        width: 20%;
+      }
+    }
+
+    .member-card {
+      display: flex;
+      flex-direction: column;
+      min-width: 0;
+      word-wrap: break-word;
+      background-color: #fff;
+      background-clip: border-box;
+      position: relative;
+      padding: 0;
+      border: 0;
+      border-radius: 0;
+      margin: 0;
+      overflow: hidden;
+    }
+
+    a {
+      transition: 0.5s;
+      text-decoration: none;
+      color: $color-2;
+    }
+
+    .member-img {
+      width: 100%;
+      vertical-align: middle;
+      height: 200px;
+    }
+    .card-title-wrap {
+      padding: 15px 25px;
+      position: relative;
+      z-index: 9;
+      background-color: #fff;
+    }
+    .card-title {
+      font-size: 24px;
+      color: #333;
+    }
+
+    .card-text {
+      font-family: "Raleway", Helvetica, Arial, sans-serif;
+      display: block;
+      margin: 0;
+      font-size: 18px;
+      color: #999;
+      font-family: "Raleway", Helvetica, Arial, sans-serif;
+      display: block;
+      margin: 0;
+    }
+
+    .team-over {
+      padding-top: 45px;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      top: 0;
+      left: 0;
+      text-align: center;
+      transition: all 0.3s ease;
+      display: none;
+    }
+    .team-over h4 {
+      color: white;
+    }
+
+    .member-card-itm:hover .team-over {
+      display: block;
+    }
+    .member-card-itm:hover .card-title-wrap {
+      background-color: #088ba5;
+    }
+    .member-card-itm:hover .card-title {
+      color: white;
+    }
+
+    .card h4 {
+      color: #fff;
+      text-transform: uppercase;
+      font-size: 18px;
+      font-family: "Raleway", Helvetica, Arial, sans-serif;
+      margin-top: 0;
+      margin-bottom: 0.5rem;
+      font-weight: 500;
+      line-height: 1.2;
+    }
+    @media (min-width: 1200px) {
+      h4 {
+        font-size: 1.5rem;
+      }
+    }
+
+    .social-nav {
+      margin-bottom: 45px;
+    }
+    .social-nav a {
+      color: #fff;
+      font-size: 16px;
+      margin: 0 4px;
+    }
+    .card p {
+      font-size: 11px;
+      color: #fff;
+      opacity: 0.75;
+      margin: 0;
+      padding: 0 35px;
+      line-height: 1.55;
+    }
+    button {
+      background: $color-3;
+      border: 0;
+      border-radius: 5px;
+      padding: 10px 20px;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+  }
+}

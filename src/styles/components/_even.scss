@@ -1,0 +1,62 @@
+.even {
+  max-width: 32rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  .card-even {
+    background-color: rgba(247, 240, 237, 1);
+    border-color: rgba(229, 231, 235, 1);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    max-width: 24rem;
+    overflow: hidden;
+  }
+  .card-even:hover {
+    -webkit-box-shadow: 0 0 10px 0 rgb(201, 192, 192),
+      0 1px 0 0 rgb(219, 214, 214);
+    box-shadow: 0 0 10px 0 rgb(233, 232, 232), 0 1px 0 0 rgb(148, 145, 145);
+  }
+  .even-img {
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    border-style: solid;
+  }
+  img {
+    max-width: 100%;
+    max-height: 40vh;
+    width: 100%;
+    object-fit: cover;
+    height: auto;
+    display: block;
+    vertical-align: middle;
+  }
+  .even-content {
+    padding: 0.5rem;
+  }
+  .even-title {
+    color: rgba(17, 24, 39, 1);
+    letter-spacing: -0.025em;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  .even-sub-title {
+    color: rgba(55, 65, 81, 1);
+    font-weight: 400;
+    margin-bottom: 0.75rem;
+  }
+
+  .read-more {
+    display: inline-flex;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    background-color: rgba(29, 78, 216, 1);
+    border-radius: 0.5rem;
+    align-items: center;
+    color: white;
+  }
+}

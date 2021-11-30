@@ -1,0 +1,29 @@
+.academy-description {
+  border: 1px solid gold;
+  border-radius: 5px;
+  position: relative;
+  top: 10px;
+  .ad-title {
+    color: #199eb8;
+    text-align: center !important;
+    font-size: 30px;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    margin-top: 0;
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  .ad-content {
+    padding: 1%;
+    text-align: center;
+  }
+  .ad-close {
+    position: absolute;
+    top: 5px;
+    right: 1%;
+    background: red;
+    font-size: 20px;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  }
+}
